@@ -10,8 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-yellowAti': 'rgb(252 194 21);',
       },
     },
   },
   plugins: [],
+  plugins: [require("tailwindcss-rtl")],
 };
