@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Detect package manager
         id: detect-package-manager
-        run: npm install
+        run: next build
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
